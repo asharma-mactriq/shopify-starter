@@ -101,7 +101,7 @@ export default function AboutUs() {
               {/* <Modal2 isOpen={isModal2Open} onClose={closeModal2} /> */}
             </div>
           </div>
-
+ 
           <div className="p-3 md:w-1/6 sm:w-1/2 w-full mb-16">
             <div className="bg-[#eedacf] rounded-xl py-6">
               <div className="w-20 h-20 rounded-full inline-flex items-center justify-center text-gray-400 mb-8 mt-5">
