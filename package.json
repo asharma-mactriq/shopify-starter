@@ -9,11 +9,16 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@fortawesome/free-regular-svg-icons": "^6.5.1",
+    "@reduxjs/toolkit": "^2.2.1",
     "@shopify/storefront-api-client": "^0.2.2",
     "next": "14.1.0",
     "node-fetch": "^3.3.2",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "react-hook-form": "^7.50.1",
+    "redux": "^5.0.1",
+    "tw-elements": "^1.1.0"
   },
   "devDependencies": {
     "@types/node": "^20",
