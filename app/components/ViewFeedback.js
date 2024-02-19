@@ -27,7 +27,7 @@ export default function ViewFeedback() {
       };
 
   return (
-    
+     
 
         <div className="bg-white" onClick={openFeedback}>
         {/* onClick={openFeedback} */}

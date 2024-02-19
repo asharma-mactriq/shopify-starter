@@ -87,7 +87,7 @@ export default function AboutUs() {
           <h1 className="text-5xl font-medium font-serif title-font tracking-tight">Why Trust Us</h1>
         </div>
         <div className="flex flex-wrap -m-4 text-center mt-10 px-32">
-
+  
           <div className="p-3 md:w-1/6 sm:w-1/2 w-full mb-16">
             <div className="bg-[#eaedde] rounded-xl py-6">
               <div className="w-20 h-20 rounded-full inline-flex items-center justify-center text-gray-400 mb-8 mt-5">

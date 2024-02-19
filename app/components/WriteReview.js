@@ -12,7 +12,7 @@ export default  function WriteReview() {
     };
     const closeReview = () => {
         setIsReviewOpen(false);
-    };
+    }; 
 
 
     const handleSubmit = (e) => {

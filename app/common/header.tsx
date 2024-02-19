@@ -73,7 +73,7 @@ export default function Header()
             <div className={styles.sidenav} style={{ width: isSidebarOpen ? '380px' : '0' }}>
                 <a href="#" className={styles.closebtn} onClick={handleSidebarToggle}>
                 &times;
-                </a>
+                </a> 
                 <div className='p-8'>
                 <a href="#" className='border-b'>Attar</a>
                 <a href="#" className='border-b'>Perfume Spray</a>

@@ -42,7 +42,7 @@ const Review = ({ isOpen, onClose }) => {
     Back
   </button>}
   <button type="button" onClick={next}>
-    {isLstStep ? "Finish" : "Next"}
+    {isLstStep ? "Finish" : "Next"} 
   </button>
   </div> */}
   <div className="flex p-3">
@@ -50,7 +50,7 @@ const Review = ({ isOpen, onClose }) => {
     <button type="button" className="ml-auto p-3 bg-black text-white font-bold py-2 px-5 rounded-lg" onClick={next}>{isLstStep ? "Done" : "Next"}</button>
   </div>
 </form>
-
+ 
 
     </div>
   </div>

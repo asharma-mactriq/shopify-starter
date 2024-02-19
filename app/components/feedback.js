@@ -6,7 +6,7 @@ import { faStar } from '@fortawesome/free-solid-svg-icons';
 const Feedback = ({ isOpen, onClose }) => {
 
     const handleSubmit = (e) => {
-        e.preventDefault();
+        e.preventDefault(); 
         // Handle form submission logic here
       };
 

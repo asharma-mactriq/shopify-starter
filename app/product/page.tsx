@@ -363,7 +363,7 @@ export default async function ProductPage() {
               </div> 
 
 
-          </div>
+          </div> 
           <div className="flex flex-wrap">
               <div className="container sm:px-52 mx-auto">
                 <div className="flex flex-wrap -m-4">
