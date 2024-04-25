@@ -26,7 +26,7 @@ import { Payment } from "@/app/components/Payment";
 const Placeorder = ({ isOpen, onClose }) => {
 
 
-  const { steps, currentStepIndex, step, isFirstStep, isLstStep, back, next } = useMultistepForm([<Blank/>, <Mobile/>, <Otp/>, <AddressForm/>, <Payment/>])
+  const { steps, currentStepIndex, step, isFirstStep, isLastStep, back, next } = useMultistepForm([<Blank/>, <Mobile/>, <Otp/>, <AddressForm/>, <Payment/>])
 
 
 
@@ -84,7 +84,7 @@ const Placeorder = ({ isOpen, onClose }) => {
   </button>} */}
   <div className="items-center justify-center container px-32">
   <button type="button" onClick={next} className="text-white hover:bg-[#fbdcb1] bg-[#f6a73c] inline-flex w-full py-3 rounded-lg items-center justify-center text-center focus:outline-none">
-    {isLstStep ? "Finish" : "Continue"}
+    {isLastStep ? "Finish" : "Continue"}
   <FontAwesomeIcon icon={faArrowRight} className="w-5 h-5"/>
   </button>
   </div>

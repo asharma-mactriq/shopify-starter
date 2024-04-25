@@ -12,7 +12,7 @@ import { Review5 } from "@/app/components/review5";
 
 const Review = ({ isOpen, onClose }) => {
 
-  const { steps, currentStepIndex, step, isFirstStep, isLstStep, back, next } = useMultistepForm([<Blank/>, <Review1/>, <Review2/>, <Review3/>, <Review4/>, <Review5/>])
+  const { steps, currentStepIndex, step, isFirstStep, isLastStep, back, next } = useMultistepForm([<Blank/>, <Review1/>, <Review2/>, <Review3/>, <Review4/>, <Review5/>])
 
 
     const handleSubmit = (e) => {
@@ -42,12 +42,12 @@ const Review = ({ isOpen, onClose }) => {
     Back
   </button>}
   <button type="button" onClick={next}>
-    {isLstStep ? "Finish" : "Next"} 
+    {isLastStep ? "Finish" : "Next"} 
   </button>
   </div> */}
   <div className="flex p-3">
   {!isFirstStep && <button type="button" className="p-3 bg-white text-black font-bold py-2 px-4 hover:bg-[#e2e2e2] rounded-lg" onClick={back}><FontAwesomeIcon icon={faArrowLeft} className="w-5 h-4 mr-2"/> Back</button>}
-    <button type="button" className="ml-auto p-3 bg-black text-white font-bold py-2 px-5 rounded-lg" onClick={next}>{isLstStep ? "Done" : "Next"}</button>
+    <button type="button" className="ml-auto p-3 bg-black text-white font-bold py-2 px-5 rounded-lg" onClick={next}>{isLastStep ? "Done" : "Next"}</button>
   </div>
 </form>
  

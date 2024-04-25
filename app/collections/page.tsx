@@ -43,7 +43,7 @@ export default async function ProductPage() {
       {products.map((product, index) => (
         <div className="p-4 lg:w-1/3" key={product.id}>
           <div className="bg-white p-3 rounded-xl h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-            <img alt="team" className="border border-gray-300 flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src={urlProduct[index]} alt={images[index].altText}/>
+            <img className="border border-gray-300 flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src={urlProduct[index]} alt={images[index].altText}/>
             <div className="flex-grow sm:pl-8">
               <h2 className="title-font text-gray-900">{product.handle}</h2>
               {/* <h3 className="text-gray-500 mb-3">UI Developer</h3> */}

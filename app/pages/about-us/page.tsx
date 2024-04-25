@@ -18,7 +18,7 @@ export default function AboutUs() {
 
   
 
-// const { steps, currentStepIndex, step, isFirstStep, isLstStep, back, next } = useMultistepForm([<Blank/>, <Review1/>, <Review2/>, <Review3/>, <Review4/>, <Review5/>])
+// const { steps, currentStepIndex, step, isFirstStep, isLastStep, back, next } = useMultistepForm([<Blank/>, <Review1/>, <Review2/>, <Review3/>, <Review4/>, <Review5/>])
   // const [isReviewOpen, setIsReviewOpen] = useState(false);
   // const openReview = () => {
   //     setIsReviewOpen(true);
